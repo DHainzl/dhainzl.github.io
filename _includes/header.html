@@ -2,14 +2,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-4 col-xs-12">
-            <div class="row-picture">
+            <a href="{{ site.baseurl }}" class="row-picture">
               <img id="about" class="logo-img" src="{{ site.logo }}" height="75px" width="75px">
-            </div>
-            <div class="row-details">
+            </a>
+            <a href="{{ site.baseurl }}" class="row-details">
               <h4 class="list-group-item-heading">{{ site.author }}</h4>
               <p class="list-group-item-text">{{ site.about }}</p>
               {% include social_links.html %}
-            </div>
+            </a>
             <div class="navbar-header pull-right">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>

@@ -1,18 +1,18 @@
 [
   {
-    "icon": "fa-facebook",
-    "link": ""
+    "icon": "fa-github",
+    "link": "https://github.com/dhainzl"
   },
   {
     "icon": "fa-twitter",
-    "link": ""
+    "link": "https://twitter.com/dhainzl"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
+    "link": "https://www.linkedin.com/in/dhainzl"
   },
   {
-    "icon": "fa-stack-exchange",
-    "link": ""
+    "icon": "fa-stack-overflow",
+    "link": "http://stackoverflow.com/users/1817480/dhainzl?tab=profile"
   }
 ]

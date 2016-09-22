@@ -4,6 +4,15 @@
     padding: 50px 0 15px 0;
     width: 100%;
 }
+.header-panel a.row-details {
+    margin-top: 7px;
+}
+
+.header-panel a.row-details:hover,
+.header-panel a.row-details:focus {
+    text-decoration: none;
+    color: #fff;
+}
 .full{ font-size: 16px; }
 .logo-img {
     width: 56px;
