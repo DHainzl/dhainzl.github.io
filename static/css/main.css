@@ -1,6 +1,6 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #009587;
+    background-color: #FF5722;
     padding: 50px 0 15px 0;
     width: 100%;
 }
@@ -55,7 +55,7 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #009688;
+    color: #E64A19;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -63,7 +63,7 @@ p.info a {
 }
 .icon:hover {
     color: rgba(255, 255, 255, 0.63);
-    background: #009688;
+    background: #E64A19;
 }
 .menu ul li {
     list-style: none;
@@ -71,7 +71,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #007D72;
+    background: #E64A19;
 }
 li.current-menu-item:before {
     content: "";
@@ -81,7 +81,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #B8CA28;
+    background: #FFC107;
 }
 .menu ul li a {
     font-size: 15px;
@@ -141,14 +141,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-size: 20px;
 }
 .error {
-    color: #EF7272!important;
+    color: #F44336 !important;
     font-size: 12px!important;
 }
 #portfolio-filter {
         margin-top: 50px;
 }
 .navbar-toggle i {
-    color: #BCCCBF;
+    color: #ff9a7a;
 }
 .menu .list-group-item-heading, .menu .list-group-item-text{
     color:#fff!important;

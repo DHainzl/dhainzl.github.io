@@ -4,9 +4,10 @@ author: David Hainzl
 logo: https://www.gravatar.com/avatar/ac93032c2c827303713bae179963cf76?s=56
 github: https://github.com/dhainzl
 about: Frontend Web Dev
-
-baseurl: "https://dhainzl.github.io"
-url: "https://dhainzl.github.io"
+baseurl: "http://localhost:4000"
+#baseurl: "https://dhainzl.github.io"
+url: "http://localhost:4000"
+#url: "https://dhainzl.github.io"
 
 #disqus_shortname: aboutashu
 #google_analytics: UA-72862926-1
