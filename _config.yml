@@ -6,13 +6,14 @@ github: https://github.com/dhainzl
 about: Frontend Web Dev
 baseurl: ""
 url: "https://dhainzl.github.io"
+#url: "http://localhost:4000"
 
 sass:
   sass_dir: static/css
   style: compressed
 
 disqus_shortname: dhainzl
-#google_analytics: UA-72862926-1
+google_analytics: UA-86533841-1
 
 share:
   twitter_username: dhainzl
