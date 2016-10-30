@@ -21,6 +21,10 @@ $text_size: 13px;
   border-bottom: $size $color solid;
 }
 
+@mixin grayscale ($intensity) {
+    filter: grayscale($intensity);
+}
+
 /**
  * //////////////////////////////////
  * Project Block
@@ -45,7 +49,16 @@ $text_size: 13px;
     .project-img {
         height: 200px;
         display: block;
+        margin-bottom: 15px;
+
         @include bg( cover );
+
+        @include grayscale(100%);
+        transition: 200ms filter;
+
+        &:hover {
+            @include grayscale(25%);
+        }
     }
 
     span.tags {
