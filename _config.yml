@@ -5,7 +5,7 @@ logo: https://www.gravatar.com/avatar/ac93032c2c827303713bae179963cf76?s=56
 github: https://github.com/dhainzl
 about: Frontend Web Dev
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://dhainzl.github.io"
 
 sass:
   sass_dir: static/css
