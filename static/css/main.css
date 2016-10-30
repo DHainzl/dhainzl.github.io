@@ -1,6 +1,6 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #FF5722;
+    background-color: #3F51B5;
     padding: 50px 0 15px 0;
     width: 100%;
 }
@@ -64,7 +64,7 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #E64A19;
+    color: #303F9F;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -72,7 +72,7 @@ p.info a {
 }
 .icon:hover {
     color: rgba(255, 255, 255, 0.63);
-    background: #E64A19;
+    background: #303F9F;
 }
 .menu ul li {
     list-style: none;
@@ -80,7 +80,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #E64A19;
+    background: #303F9F;
 }
 li.current-menu-item:before {
     content: "";
