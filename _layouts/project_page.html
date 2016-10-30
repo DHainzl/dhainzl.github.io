@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="project_page">
+    {% for project in site.data.projects %}
+        {% if page.project == project.id %}
+            <div class="well">
+                <h4 class="home-subtitle">{{ project.name }}</h4>
+
+                <div class="row image">
+                    <div class="col-xs-12">
+                        <img class="img-responsive" src="{{ site.url }}/static/projects/{{ project.image }}">
+                    </div>
+                </div>
+
+                <div>
+                    {{ content }}
+                </div>
+
+                {% if project.url %} 
+                    <a href="{{ project.url }}" target="_blank" class="btn btn-default btn-raised btn-sm project-direct-link">Website <span class="fa fa-external-link"></span></a>
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

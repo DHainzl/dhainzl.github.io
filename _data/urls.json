@@ -1,21 +1,25 @@
 [
   {
+    "id": "blog",
     "text": "Home",
     "url": "/",
     "icon": "fa-home",
     "layout": "post"
   },
   {
+    "id": "resume",
     "text": "Resume",
     "url": "/resume",
     "icon": "fa-graduation-cap"
   },
   {
+    "id": "projects",
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
   },
   {
+    "id": "about",
     "text": "About",
     "url": "/about",
     "icon": "fa-comments"

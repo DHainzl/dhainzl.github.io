@@ -1,3 +1,13 @@
+{% assign projectdata = nil %}
+
+{% if page.project %}
+  {% for project in site.data.projects %}
+    {% if project.id == page.project %}
+      {% assign projectdata = project %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 <div class="header-panel shadow-z-2">
       <div class="container">
         <div class="row">
@@ -18,13 +28,21 @@
             </a>
           </div>
           <div class="col-md-9 col-sm-8 col-xs-12">
-            <h2 class="blog-title-pro">{{ page.title }}</h2>
+            <h2 class="blog-title-pro">
+              {{ page.title }}
+              {% if page.title == nil && projectdata != nil %}
+                {{ projectdata.name }}
+              {% endif %}
+            </h2>
             <p class="info">
               {% if page.date %}
-                <span class="time">{{ page.date | date_to_string }}</span> &raquo; 
+                <span class="time">{{ page.date | date_to_string }}</span>
+              {% endif %}
+              {% if projectdata.date %}
+                <span class="time">{{ projectdata.date | date:'%B %Y' }}</span>
               {% endif %}
               {% if page.categories.size > 0 %}
-                <span class="categories">
+                <span class="categories"> in
                   {% for category in page.categories %}
                     <a href="{{ site.url }}/category/{{ category }}">{{ category }}</a>
                     {% if forloop.last == false %}, {% endif %}

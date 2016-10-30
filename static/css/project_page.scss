@@ -1,0 +1,17 @@
+.project_page {
+    .tag-holder {
+        span.tags {
+            cursor: default;
+        }
+
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
+
+    .image img {
+        @include grayscale_hover();
+
+        margin-bottom: 15px;
+        border: 1px solid #eee;
+    }
+}
