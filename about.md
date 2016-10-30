@@ -4,8 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This website is built by [Jekyll](http://jekyllrb.com/) and hosted by [GitHub](https://github.com). Is uses the [hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog) theme with some adaptions done by myself.
 
-You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+You can find the source code of this site directly on Github [here](https://github.com/dhainzl/dhainzl.github.io).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## Imprint
+
+This is a private website. It is created and maintained by:
+
+<address>
+    David Hainzl, BSc.<br>
+    Leopold-Ferstl-Gasse 8 / 13<br>
+    1210 Vienna<br>
+    AUSTRIA<br>
+    <br>
+    <a href="mailto:david@dhainzl.at">david@dhainzl.at</a>
+</address>
