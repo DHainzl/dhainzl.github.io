@@ -22,10 +22,10 @@ permalink: /resume/
 | February 2016 - present | UX Development Team Lead<br>Seekda GmbH, Vienna |
 | June 2013 - February 2016 | Frontend Web Developer<br>Seekda GmbH, Vienna |
 | June 2012 - April 2013 | Web Developer<br>seam media group GmbH, Steyregg |
-| September 2011 - May 2012 | Civilian Service<br>Seniorenzentrum Franckviertel, Linz |
+| September 2011 - May 2012 | Civilian Service<br>Senior living facility, Franckviertel, Linz |
 | July 2010 - September 2011 | Web Developer<br>seam media group GmbH, Steyregg |
 
 ## Interests
 
 * Active member of the Viennese JavaScript usergroup ([ViennaJS](http://www.meetup.com/viennajs/))
-* Development and, more specifically, web development, including evaluation of state-of-the-art technologies
+* Web development, including evaluation of state-of-the-art technologies
